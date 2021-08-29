@@ -224,6 +224,7 @@ class MainActivity : AppCompatActivity() {
         binding.bton.setOnClickListener {
             LocalBroadcastManager.getInstance(this).sendBroadcast(actionIntent)
         }
+
     }
 
 }
